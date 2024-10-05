@@ -1,0 +1,29 @@
+{
+    "name": "codeixer/jvm-woocommerce-wishlist",
+    "description": "A Simple and Lightweight Wishlist for WooCommerce",
+    "type": "woocommerce-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Codeixer",
+            "email": "codeixer@gmail.com"
+        }
+    ],
+    "require": {
+        "appsero/client": "^1.2",
+        "collizo4sky/persist-admin-notices-dismissal": "^1.4.5",
+        "codesvault/howdy-qb": "1.6.2"
+    },
+     "autoload": {
+        "files": [
+            "inc/codestar-framework/codestar-framework.php",
+            "inc/core.php",
+            "inc/functions.php",
+            "inc/onboarding/Onboarding.php"
+        ],
+        "psr-4": {
+            "CIXW_WISHLIST\\": "v2/"
+        }
+    },
+    "minimum-stability": "dev"
+}
