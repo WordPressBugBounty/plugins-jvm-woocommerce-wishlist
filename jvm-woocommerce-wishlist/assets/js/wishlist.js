@@ -205,8 +205,9 @@
 
     };
 
-    window.cix_wishlist_init = function (){
-        
+    window.cix_wishlist_init = function () {
+        jQuery(".jvm_add_to_wishlist, .wishlist-undo").off('click');
+
         cix_wishlist.misc();
         cix_wishlist.add_to_wishlist();
         cix_wishlist.add_to_cart();
@@ -223,7 +224,7 @@
         cix_wishlist.add_to_cart();
         cix_wishlist.remove_product();
     });
-    
+
 
 
 

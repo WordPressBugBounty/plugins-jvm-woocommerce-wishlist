@@ -59,7 +59,7 @@ class Wishlist {
 
 		// If we added the product to the cart we can now optionally do a redirect.
 		if ( $was_added_to_wishlist && 0 === wc_notice_count( 'error' ) ) {
-			$url = apply_filters( 'woocommerce_add_to_cart_wishlist', $url, $adding_to_wishlist );
+			$url = apply_filters( 'woocommerce_add_to_wishlist', $url, $adding_to_wishlist );
 
 			if ( $url ) {
 				wp_safe_redirect( $url );

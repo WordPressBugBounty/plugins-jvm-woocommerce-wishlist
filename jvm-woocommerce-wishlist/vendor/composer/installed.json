@@ -2,17 +2,17 @@
     "packages": [
         {
             "name": "appsero/client",
-            "version": "v1.4.0",
-            "version_normalized": "1.4.0.0",
+            "version": "v2.0.4",
+            "version_normalized": "2.0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Appsero/client.git",
-                "reference": "43289d79f1d55de687f667b17a2834b986cc7b6e"
+                "reference": "12ff65b9770286d21edf314e7acfcd26fdde3315"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Appsero/client/zipball/43289d79f1d55de687f667b17a2834b986cc7b6e",
-                "reference": "43289d79f1d55de687f667b17a2834b986cc7b6e",
+                "url": "https://api.github.com/repos/Appsero/client/zipball/12ff65b9770286d21edf314e7acfcd26fdde3315",
+                "reference": "12ff65b9770286d21edf314e7acfcd26fdde3315",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,7 @@
                 "tareq1988/wp-php-cs-fixer": "dev-master",
                 "wp-coding-standards/wpcs": "dev-develop"
             },
-            "time": "2024-01-08T11:38:14+00:00",
+            "time": "2024-11-25T05:58:23+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -53,23 +53,23 @@
             ],
             "support": {
                 "issues": "https://github.com/Appsero/client/issues",
-                "source": "https://github.com/Appsero/client/tree/v1.4.0"
+                "source": "https://github.com/Appsero/client/tree/v2.0.4"
             },
             "install-path": "../appsero/client"
         },
         {
             "name": "codesvault/howdy-qb",
-            "version": "1.6.2",
-            "version_normalized": "1.6.2.0",
+            "version": "1.6.3",
+            "version_normalized": "1.6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CodesVault/howdy_qb.git",
-                "reference": "873a6e78e34c3f57dcdeda30dce473e2cdfc999c"
+                "reference": "e5a074f5a879eba7a820ba73e723c85cfa96b0da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CodesVault/howdy_qb/zipball/873a6e78e34c3f57dcdeda30dce473e2cdfc999c",
-                "reference": "873a6e78e34c3f57dcdeda30dce473e2cdfc999c",
+                "url": "https://api.github.com/repos/CodesVault/howdy_qb/zipball/e5a074f5a879eba7a820ba73e723c85cfa96b0da",
+                "reference": "e5a074f5a879eba7a820ba73e723c85cfa96b0da",
                 "shasum": ""
             },
             "require": {
@@ -82,7 +82,7 @@
                 "symfony/var-dumper": "^5.4",
                 "wp-coding-standards/wpcs": "^2.3"
             },
-            "time": "2024-02-11T07:35:22+00:00",
+            "time": "2024-11-10T18:02:48+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -118,7 +118,7 @@
             ],
             "support": {
                 "issues": "https://github.com/CodesVault/howdy_qb/issues",
-                "source": "https://github.com/CodesVault/howdy_qb/tree/1.6.2"
+                "source": "https://github.com/CodesVault/howdy_qb/tree/1.6.3"
             },
             "install-path": "../codesvault/howdy-qb"
         },

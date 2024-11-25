@@ -13,7 +13,7 @@
  * ███║     ███║   ████████████████╗
  * ╚═╝      ╚═╝    ═══════════════╝
  */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inter&display=swap');
+
 
 :root {
   /* --dark: #09171e; */
@@ -46,7 +46,7 @@ h3,
 h4,.ob-field .title {
   margin: 0;
   color: var(--shadow-dark);
-  font-family: "EB Garamond", serif;
+  
 }
 .ob-field .title {
   font-size: 20px;
@@ -63,7 +63,7 @@ a {
   text-decoration: none;
 }
 button {
-	font: 400 1.1em "EB Garamond", serif;
+	
 
 }
 .page-heading {
@@ -307,7 +307,7 @@ a.button.button-next.hz_dyn_btn.main_btn {
   vertical-align: middle;
   margin-left: 15px;
   font-weight: 600;
-    font-family: "EB Garamond", serif;
+    
     font-size: 22px;
 }
 .onboarding_step_desc {
