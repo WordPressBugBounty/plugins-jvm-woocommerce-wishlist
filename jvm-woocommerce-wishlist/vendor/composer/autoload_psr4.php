@@ -8,5 +8,4 @@ $baseDir = dirname($vendorDir);
 return array(
     'CodesVault\\Howdyqb\\' => array($vendorDir . '/codesvault/howdy-qb/src'),
     'CIXW_WISHLIST\\' => array($baseDir . '/v2'),
-    'Appsero\\' => array($vendorDir . '/appsero/client/src'),
 );

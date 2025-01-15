@@ -10,9 +10,9 @@
         }
     ],
     "require": {
-        "appsero/client": "^2.0.4",
+        
         "collizo4sky/persist-admin-notices-dismissal": "^1.4.5",
-        "codesvault/howdy-qb": "1.6.3"
+        "codesvault/howdy-qb": "^1.6.3"
     },
      "autoload": {
         "files": [

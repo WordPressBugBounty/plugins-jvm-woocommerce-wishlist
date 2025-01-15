@@ -1,75 +1,18 @@
 {
     "packages": [
         {
-            "name": "appsero/client",
-            "version": "v2.0.4",
-            "version_normalized": "2.0.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Appsero/client.git",
-                "reference": "12ff65b9770286d21edf314e7acfcd26fdde3315"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Appsero/client/zipball/12ff65b9770286d21edf314e7acfcd26fdde3315",
-                "reference": "12ff65b9770286d21edf314e7acfcd26fdde3315",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
-                "phpcompatibility/phpcompatibility-wp": "dev-master",
-                "phpunit/phpunit": "^8.5.31",
-                "squizlabs/php_codesniffer": "^3.7",
-                "tareq1988/wp-php-cs-fixer": "dev-master",
-                "wp-coding-standards/wpcs": "dev-develop"
-            },
-            "time": "2024-11-25T05:58:23+00:00",
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Appsero\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tareq Hasan",
-                    "email": "tareq@appsero.com"
-                }
-            ],
-            "description": "Appsero Client",
-            "keywords": [
-                "analytics",
-                "plugin",
-                "theme",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/Appsero/client/issues",
-                "source": "https://github.com/Appsero/client/tree/v2.0.4"
-            },
-            "install-path": "../appsero/client"
-        },
-        {
             "name": "codesvault/howdy-qb",
-            "version": "1.6.3",
-            "version_normalized": "1.6.3.0",
+            "version": "1.6.4",
+            "version_normalized": "1.6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CodesVault/howdy_qb.git",
-                "reference": "e5a074f5a879eba7a820ba73e723c85cfa96b0da"
+                "reference": "0481918ef28c5fc96d7c83edb3487a5a7df919fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CodesVault/howdy_qb/zipball/e5a074f5a879eba7a820ba73e723c85cfa96b0da",
-                "reference": "e5a074f5a879eba7a820ba73e723c85cfa96b0da",
+                "url": "https://api.github.com/repos/CodesVault/howdy_qb/zipball/0481918ef28c5fc96d7c83edb3487a5a7df919fc",
+                "reference": "0481918ef28c5fc96d7c83edb3487a5a7df919fc",
                 "shasum": ""
             },
             "require": {
@@ -82,7 +25,7 @@
                 "symfony/var-dumper": "^5.4",
                 "wp-coding-standards/wpcs": "^2.3"
             },
-            "time": "2024-11-10T18:02:48+00:00",
+            "time": "2024-11-29T12:29:44+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -118,7 +61,7 @@
             ],
             "support": {
                 "issues": "https://github.com/CodesVault/howdy_qb/issues",
-                "source": "https://github.com/CodesVault/howdy_qb/tree/1.6.3"
+                "source": "https://github.com/CodesVault/howdy_qb/tree/1.6.4"
             },
             "install-path": "../codesvault/howdy-qb"
         },

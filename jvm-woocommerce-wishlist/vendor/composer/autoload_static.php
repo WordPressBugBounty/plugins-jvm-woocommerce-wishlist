@@ -19,10 +19,6 @@ class ComposerStaticInitbee06180dfee1e9fc609c0ebe8c58354
             'CodesVault\\Howdyqb\\' => 19,
             'CIXW_WISHLIST\\' => 14,
         ),
-        'A' => 
-        array (
-            'Appsero\\' => 8,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -33,10 +29,6 @@ class ComposerStaticInitbee06180dfee1e9fc609c0ebe8c58354
         'CIXW_WISHLIST\\' => 
         array (
             0 => __DIR__ . '/../..' . '/v2',
-        ),
-        'Appsero\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/appsero/client/src',
         ),
     );
 
