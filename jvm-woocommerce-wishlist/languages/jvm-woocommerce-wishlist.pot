@@ -1,72 +1,68 @@
-# Copyright (C) 2024 Codeixer
-# This file is distributed under the same license as the JVM WooCommerce Wishlist plugin.
+# Copyright (C) 2025 Codeixer
+# This file is distributed under the same license as the Wishlist for WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: JVM WooCommerce Wishlist 2.0\n"
+"Project-Id-Version: Wishlist for WooCommerce 2.0.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/jvm-woocommerce-wishlist\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-05-04T01:48:49+00:00\n"
+"POT-Creation-Date: 2025-05-30T18:08:23+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.8.1\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: jvm-woocommerce-wishlist\n"
 
 #. Plugin Name of the plugin
-msgid "JVM WooCommerce Wishlist"
+#: jvm-woocommerce-wishlist.php
+msgid "Wishlist for WooCommerce"
 msgstr ""
 
 #. Description of the plugin
+#: jvm-woocommerce-wishlist.php
 msgid "Enhance your e-commerce store's functionality with WooCommerce Wishlist - the ultimate tool that adds a powerful and lightweight wishlist feature. Improve your customer's shopping experience and boost your sales with this essential addition to your online store."
 msgstr ""
 
 #. Author of the plugin
+#: jvm-woocommerce-wishlist.php
 msgid "Codeixer"
 msgstr ""
 
 #. Author URI of the plugin
+#: jvm-woocommerce-wishlist.php
 msgid "https://codeixer.com"
 msgstr ""
 
 #: inc/onboarding/Includes/Wizard.php:497
-#: v2/Settings.php:395
 msgid "No Item Text"
 msgstr ""
 
 #: inc/onboarding/Includes/Wizard.php:505
-#: v2/Settings.php:403
 msgid "Add to Cart Text"
 msgstr ""
 
 #: inc/onboarding/Includes/Wizard.php:514
-#: v2/Settings.php:438
 msgid "Removed from Cart Notice"
 msgstr ""
 
 #: inc/onboarding/Includes/Wizard.php:516
-#: v2/Settings.php:440
 msgid "Removed from cart notice message. Use, placeholder <code>{product_name}</code> to display name of the product."
 msgstr ""
 
 #: inc/onboarding/Includes/Wizard.php:522
-#: v2/Settings.php:475
 msgid "Redirect to Cart"
 msgstr ""
 
 #: inc/onboarding/Includes/Wizard.php:523
-#: v2/Settings.php:476
 msgid "Redirect to cart page after adding to cart from wishlist page."
 msgstr ""
 
 #: inc/onboarding/Includes/Wizard.php:531
-#: v2/Settings.php:483
 msgid "Remove if Added to Cart"
 msgstr ""
 
 #: inc/onboarding/Includes/Wizard.php:532
-#: v2/Settings.php:484
 msgid "Remove item from wishlist if added to cart."
 msgstr ""
 
@@ -92,209 +88,14 @@ msgstr ""
 msgid "Return to shop"
 msgstr ""
 
-#: v2/AjaxActions.php:111
+#: v2/AjaxActions.php:127
 msgid "Undo?"
 msgstr ""
 
-#: v2/Bootstrap.php:34
-#: v2/Settings.php:117
+#: v2/Bootstrap.php:53
 msgid "Wishlist Page"
 msgstr ""
 
-#: v2/Settings.php:28
-msgid "Documentation"
-msgstr ""
-
-#: v2/Settings.php:29
-msgid "Get help"
-msgstr ""
-
-#: v2/Settings.php:39
-msgid "Settings"
-msgstr ""
-
-#: v2/Settings.php:110
-msgid "Default Wishlist Name"
-msgstr ""
-
-#: v2/Settings.php:138
-msgid "Action after added to Wishlist"
-msgstr ""
-
-#: v2/Settings.php:140
-msgid "None"
-msgstr ""
-
-#: v2/Settings.php:141
-msgid "Redirect to Wishlist Page"
-msgstr ""
-
-#: v2/Settings.php:142
-msgid "Show Popup"
-msgstr ""
-
-#: v2/Settings.php:149
-msgid "Remove product from Wishlist on the second click"
-msgstr ""
-
-#: v2/Settings.php:151
-msgid "Remove product from Wishlist on the second click."
-msgstr ""
-
-#: v2/Settings.php:157
-msgid "Delete Guest Wishlist"
-msgstr ""
-
-#: v2/Settings.php:160
-msgid "Delete guest wishlist after x days."
-msgstr ""
-
-#: v2/Settings.php:170
-msgid "Popup"
-msgstr ""
-
-#: v2/Settings.php:177
-msgid "View Wishlist Text"
-msgstr ""
-
-#: v2/Settings.php:184
-msgid "Product Already in Wishlist Text"
-msgstr ""
-
-#: v2/Settings.php:186
-msgid "Text to display when the product is already in the wishlist. Use, placeholder <code>{product_name}</code> to display name of the product."
-msgstr ""
-
-#: v2/Settings.php:192
-msgid "Product Added to Wishlist Text"
-msgstr ""
-
-#: v2/Settings.php:194
-msgid "Text to display when the product is added to the wishlist. Use, placeholder <code>{product_name}</code> to display name of the product."
-msgstr ""
-
-#: v2/Settings.php:200
-msgid "Product Removed from Wishlist Text"
-msgstr ""
-
-#: v2/Settings.php:202
-msgid "Text to display when the product is removed from the wishlist. Use, placeholder <code>{product_name}</code> to display name of the product."
-msgstr ""
-
-#: v2/Settings.php:212
-msgid "Add To Wishlist Button"
-msgstr ""
-
-#: v2/Settings.php:222
-msgid "Listing Page"
-msgstr ""
-
-#: v2/Settings.php:228
-#: v2/Settings.php:273
-msgid "Display \"Add to Wishlist\""
-msgstr ""
-
-#: v2/Settings.php:229
-msgid "Display \"Add to Wishlist\" button on product listings like Shop page, categories, etc."
-msgstr ""
-
-#: v2/Settings.php:236
-#: v2/Settings.php:282
-msgid "\"Add to Wishlist\" Position"
-msgstr ""
-
-#: v2/Settings.php:238
-#: v2/Settings.php:284
-msgid "After \"Add to Cart\" button"
-msgstr ""
-
-#: v2/Settings.php:239
-#: v2/Settings.php:285
-msgid "Before \"Add to Cart\" button"
-msgstr ""
-
-#: v2/Settings.php:240
-msgid "Above Thumbnail"
-msgstr ""
-
-#: v2/Settings.php:241
-#: v2/Settings.php:287
-msgid "Custom Position / Shortcode"
-msgstr ""
-
-#: v2/Settings.php:251
-#: v2/Settings.php:297
-msgid "Shortcode"
-msgstr ""
-
-#: v2/Settings.php:275
-msgid "Display \"Add to Wishlist\" button on the single product page."
-msgstr ""
-
-#: v2/Settings.php:286
-msgid "After Summary"
-msgstr ""
-
-#: v2/Settings.php:291
-msgid "Select the position where you want to display \"Add to Wishlist\" button on the single product page"
-msgstr ""
-
-#: v2/Settings.php:320
-msgid "Button Type"
-msgstr ""
-
-#: v2/Settings.php:331
-msgid "Button Icon"
-msgstr ""
-
-#: v2/Settings.php:355
-msgid "Button Text"
-msgstr ""
-
-#: v2/Settings.php:362
-msgid "\"Remove from Wishlist\" Text"
-msgstr ""
-
-#: v2/Settings.php:368
-msgid "\"Already in wishlist\" Text"
-msgstr ""
-
-#: v2/Settings.php:386
-msgid "Guest Notice"
-msgstr ""
-
-#: v2/Settings.php:388
-msgid "Guest notice message.Use, placeholder <code>{guest_session_in_days}</code> to display expired tme."
-msgstr ""
-
-#: v2/Settings.php:410
-msgid "In Stock Text"
-msgstr ""
-
-#: v2/Settings.php:417
-msgid "Out of Stock Text"
-msgstr ""
-
-#: v2/Settings.php:423
-msgid "Show Unit Price"
-msgstr ""
-
-#: v2/Settings.php:430
-msgid "Show Stock Status"
-msgstr ""
-
-#: v2/Settings.php:491
-msgid "Show \"Add All to Cart\" Button"
-msgstr ""
-
-#: v2/Settings.php:498
-msgid "\"Add All to Cart\" Button Text"
-msgstr ""
-
-#: v2/Settings.php:518
-msgid "Custom CSS"
-msgstr ""
-
-#: v2/Wishlist.php:300
+#: v2/Wishlist.php:381
 msgid "View Cart"
 msgstr ""

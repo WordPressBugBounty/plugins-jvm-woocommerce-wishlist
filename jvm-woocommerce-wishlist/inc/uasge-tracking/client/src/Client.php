@@ -2,6 +2,9 @@
 
 namespace NS7_UT;
 
+if ( class_exists( 'NS7_UT\Client' ) ) {
+	return;
+}
 /**
  * Appsero Client
  *
@@ -100,16 +103,16 @@ class Client {
 	public $endpoint = 'https://codeixer.com/wp-json/cdx/v1/';
 
 	/**
-     * Client constructor.
-     *
-     * @param string $hash
-     * @param string $name
-     * @param string $file
-     */
+	 * Client constructor.
+	 *
+	 * @param string $hash
+	 * @param string $name
+	 * @param string $file
+	 */
 	public function __construct( $hash, $name, $file ) {
-		$this->hash     = $hash;
-		$this->name     = $name;
-		$this->file     = $file;
+		$this->hash = $hash;
+		$this->name = $name;
+		$this->file = $file;
 
 		$this->set_basename_and_slug();
 	}
@@ -135,7 +138,7 @@ class Client {
 	}
 
 	/**
-     * NOTE -  Not WOrking
+	 * NOTE -  Not WOrking
 	 * Initialize plugin/theme updater
 	 *
 	 * @return void
@@ -156,7 +159,7 @@ class Client {
 	}
 
 	/**
-     * NOTE -  Not WOrking
+	 * NOTE -  Not WOrking
 	 * Initialize license checker
 	 *
 	 * @return Appsero\License
@@ -231,7 +234,7 @@ class Client {
 		$headers = array(
 			'user-agent' => 'Cdxr/' . md5( esc_url( home_url() ) ) . ';',
 			'Accept'     => 'application/json',
-            
+
 		);
 
 		$response = wp_remote_post(

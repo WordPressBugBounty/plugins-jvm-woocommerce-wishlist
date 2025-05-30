@@ -2,8 +2,8 @@
 Contributors: im_niloy,codeixer,jorisvanmontfort
 Tags: wishlist for woocommerce,wishlist, woocommerce wishlist,ti wishlist, add to wishlist
 Requires at least: 5.0
-Tested up to: 6.7.1
-Stable tag: 2.0.5
+Tested up to: 6.8.1
+Stable tag: 2.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,11 @@ To install the WooCommerce Wishlist plugin, please follow these steps:
 
 
 == Changelog ==
+
+= 2.0.6 - 30 May 25 =
+
+* Fixed: Function `_load_textdomain_just_in_time` was called incorrectly.
+
 = 2.0.5 - 15 Jan 25 =
 
 * Tweak: Update plugin SDK lib
